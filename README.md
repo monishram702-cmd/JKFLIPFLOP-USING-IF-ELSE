@@ -66,11 +66,11 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
     input k,
     output reg q,
     output reg qbar
-);
+ );
 
- always @(posedge clk) begin
+  always @(posedge clk) begin
  
- if (j == 0 && k == 0) begin
+  if (j == 0 && k == 0) begin
     
     q <= q;
     
@@ -78,15 +78,15 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
  
   end 
  
-  else if (j == 0 && k == 1) begin
+   else if (j == 0 && k == 1) begin
     
      q <= 0;
      
      qbar <= 1;
 
- end 
+  end 
 
- else if (j == 1 && k == 0) begin
+   else if (j == 1 && k == 0) begin
   
      q <= 1;
   
@@ -94,7 +94,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
  end 
 
- else if (j == 1 && k == 1) begin
+    else if (j == 1 && k == 1) begin
    
      q <= ~q;
    
