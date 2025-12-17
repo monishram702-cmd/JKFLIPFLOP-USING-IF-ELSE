@@ -96,6 +96,14 @@ RegisterNumber: 25017815
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+  <img width="1037" height="543" alt="Screenshot 2025-12-17 194010" src="https://github.com/user-attachments/assets/a27b4a09-fcc3-4d2d-9532-4238946ac2fd" />
+
+   
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+  <img width="1033" height="545" alt="Screenshot 2025-12-17 194028" src="https://github.com/user-attachments/assets/50be414b-703a-4704-910f-c7d087a648da" />
+
+
 **RESULTS**
+
+  Implementation of JK flipflop using Verilog and validating their functionality using their functional tables is created successfully
