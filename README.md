@@ -68,31 +68,48 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
     output reg qbar
 );
 
-
  always @(posedge clk) begin
-
+ 
  if (j == 0 && k == 0) begin
+    
     q <= q;
+    
     qbar <= qbar;
-end 
-else if (j == 0 && k == 1) begin
-    q <= 0;
-    qbar <= 1;
-end 
-else if (j == 1 && k == 0) begin
-    q <= 1;
-    qbar <= 0;
-end 
-else if (j == 1 && k == 1) begin
-    q <= ~q;
-    qbar <= ~qbar;
-    end
-end
+ 
+  end 
+ 
+  else if (j == 0 && k == 1) begin
+    
+     q <= 0;
+     
+     qbar <= 1;
 
-endmodule
+ end 
+
+ else if (j == 1 && k == 0) begin
+  
+     q <= 1;
+  
+     qbar <= 0;
+
+ end 
+
+ else if (j == 1 && k == 1) begin
+   
+     q <= ~q;
+   
+     qbar <= ~qbar;
+  
+     end
+
+ end
 
 
-Developed by: RegisterNumber:
+ endmodule
+
+
+Developed by: MONISH . R
+RegisterNumber: 25017815
 */
 
 **RTL LOGIC FOR FLIPFLOPS**
